@@ -1,0 +1,103 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout HTML5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, footer {
+            background-color: yellow;
+            padding: 10px;
+            text-align: center;
+        }
+        article {
+            background-color: ha;
+            padding: 10px;
+        }
+        aside {
+            background-color: aqua;
+            padding: 10px;
+        }
+        section {
+            background-color: lightyellow;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "header header"
+                "nav nav"
+                "article aside"
+                "footer footer";
+            grid-gap: 10px;
+        }
+        header {
+            grid-area: header;
+        }
+        nav {
+            grid-area: nav;
+        }
+        article {
+            grid-area: article;
+        }
+        aside {
+            grid-area: aside;
+        }
+        footer {
+            grid-area: footer;
+        }
+        .container {
+            grid-template-columns: 2fr 1fr;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Software Rekomendasi Pembuat Aplikasi Android Terbaik</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <h1><a href="">Software  Android Terbaik</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <section>
+            <h2>Software Rekomendasi Pembuat Aplikasi Android Terbaik.</h2>
+            <p>Di era modernisasi yang canggih teknologi seperti sekarang, siapapun bisa membuat aplikasi yang diimpikan secara mandiri. Hadirnya software pembuat aplikasi android, adalah solusi paling mudah untuk merancang sebuah aplikasi hanya melalui smartphone</p>
+        </section>
+        <section>
+            <p><h1>Beberapa software pengembangan untuk membuat aplikasi android adalah sebagai berikut</h1>
+            Android Studio
+            Software pembuat aplikasi android yang pertama yaitu Android Studio. Merupakan software integrated development (IDE) yang resmi dari Google untuk membuat sebuah aplikasi berbasis android.</p>
+        </section>
+        <section>
+            <h2>Beberapa software pengembangan untuk membuat aplikasi android adalah sebagai berikut..</h2>
+            <p>
+            Android Studio
+            Software pembuat aplikasi android yang pertama yaitu Android Studio. Merupakan software integrated development (IDE) yang resmi dari Google untuk membuat sebuah aplikasi berbasis android.</p>
+        </section>
+    </article>
+
+    <aside>
+        <h2>Aside</h2>
+        <img src="" alt="">
+        <p></p>
+    </aside>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</div>
+
+</body>
+</html
